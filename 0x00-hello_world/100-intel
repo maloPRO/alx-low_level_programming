@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -S "$CFILE" -o "$(basename "$CFILE" .c).s"
+gcc -S -masm=intel $CFILE ; mv $(basename $CFILE .c).s $(basename $CFILE .c).s
+
