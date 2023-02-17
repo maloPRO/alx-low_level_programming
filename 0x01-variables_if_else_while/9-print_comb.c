@@ -20,6 +20,7 @@ int main(void)
 		else
 		{
 			putchar(n + '0');
+			putchar('\n');
 		}
 		n++;
 	}
