@@ -8,16 +8,14 @@
 int main(void)
 {
 	int n = 0;
-	char comma = ',';
-	char space = ' ';
 
 	while (n < 10)
 	{
 		if (n != 9)
 		{
 			putchar(n + '0');
-			putchar(comma);
-			putchar(space);
+			putchar(',');
+			putchar(' ');
 		}
 		else
 		{
