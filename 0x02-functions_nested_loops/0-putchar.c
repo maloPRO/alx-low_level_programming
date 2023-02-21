@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
+void _putchar(char *str);
+
 /**
  * main - Entry point
  *
