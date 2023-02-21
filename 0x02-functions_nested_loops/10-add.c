@@ -3,13 +3,15 @@
 /**
  * add - adds values
  *
- * @int: value
+ * @a: value
+ *
+ * @b: value
  *
  * Return: result
  */
-int add(int, int)
+int add(int a, int b)
 {
-	int result = int + int;
+	int result = int a + int b;
 
 	return (result);
 }
