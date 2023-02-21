@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-/**
- * print_alphabet - prints letters
- *
- */
 void print_alphabet(void);
 
 /**
@@ -18,6 +14,10 @@ int main(void)
 	return (0);
 }
 
+/**
+ * print_alphabet - prints alphabets
+ *
+ */
 void print_alphabet(void)
 {
 	char letter = 'a';
