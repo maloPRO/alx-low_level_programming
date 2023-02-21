@@ -1,16 +1,18 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stdio.h>
 
 /**
- * putchar_ - prints word
+ * _putchar - prints word
  *
- * Return - Always char
+ * @str: string
+ *
+ * Return:  Always char
  *
  */
-int putchar_(void)
+void _putchar(char *str)
 {
-	printf("_putchar\n");
-	return (0);
+	printf("%s", str);
 }
 
 #endif
