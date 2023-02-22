@@ -3,20 +3,32 @@
 /**
  * jack_bauer - prints minutes
  *
- * @hour - hours
+ * @i - hours
  *
- * @min - minutes
+ * @j - minutes
  *
  * Return: time
  */
 void jack_bauer(void)
 {
-	int hour, min;
+	int i, j;
 
-	for (hour = 0; hour < 24; hour++)
+	i = 0;
+
+	while (i < 24)
 	{
-		if (hour < 10)
+		j = 0;
+		while (j < 60)
 		{
-			return ("0%d", hour_
+			_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
+			_putchar(':');
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
+			_putchar('\n');
+			j++;
+		}
+		i++;
 	}
+
 }
