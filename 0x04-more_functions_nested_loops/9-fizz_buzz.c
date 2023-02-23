@@ -9,6 +9,7 @@ void fizzBuzz(void);
 int main(void)
 {
 	fizzBuzz();
+	printf("\n");
 	return (0);
 }
 
@@ -23,19 +24,19 @@ void fizzBuzz(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz\n");
+			printf("FizzBuzz ");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz\n");
+			printf("Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz\n");
+			printf("Buzz ");
 		}
 		else
 		{
-			printf("%d\n", i);
+			printf("%d ", i);
 		}
 	}
 }
