@@ -17,7 +17,7 @@ int main(void)
  * fizzBuzz - prints numbers 0 - 100
  */
 void fizzBuzz(int n)
-{	
+{
 	int i;
 
 	for (i = 1; i <= n; i++)
