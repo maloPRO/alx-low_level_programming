@@ -2,18 +2,27 @@
 
 /**
  * print_diagonal - prints \ diagonally
+ * @n: number of lines
  */
 void print_diagonal(int n)
 {
-	int i;
-
-	for (i = 0; i < n; i++)
+	if (n > 0)
 	{
-		if (n != 0)
+		int i = 0;
+
+		while (i < n)
 		{
-			_putchar(' ');
+			int j = 0;
+
+			while (j < i)
+			{
+				_putchar(' ');
+				j++;
+			}
+			_putchar('\\');
+			_putchar('\n');
+			i++;
 		}
 	}
-	_putchar('\\');
 	_putchar('\n');
 }
