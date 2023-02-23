@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void fizzBuzz(int n);
+void fizzBuzz(void);
 
 /**
  * main - Entry point
@@ -8,7 +8,7 @@ void fizzBuzz(int n);
  */
 int main(void)
 {
-	fizzBuzz(100);
+	fizzBuzz();
 	printf("\n");
 	return (0);
 }
@@ -16,11 +16,11 @@ int main(void)
 /**
  * fizzBuzz - prints numbers 0 - 100
  */
-void fizzBuzz(int n)
+void fizzBuzz(void)
 {
 	int i;
 
-	for (i = 1; i <= n; i++)
+	for (i = 1; i < 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
