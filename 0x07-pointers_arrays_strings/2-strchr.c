@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-
 /**
 * _strchr - checks for character in string
 * @s: string
