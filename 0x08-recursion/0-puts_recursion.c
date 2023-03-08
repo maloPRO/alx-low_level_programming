@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _puts_recursion - prints out string
@@ -6,18 +7,11 @@
  */
 void _puts_recursion(char *s)
 {
-	int len = 0;
-	int i = 0;
-
-	while (s[len] != '\0')
+	if (*s == '\0')
 	{
-		len++;
+		_putchar('\n');
+		return;
 	}
-	while (i < len)
-	{
-		_putchar(s[i]);
-		i++;
-	}
-	_putchar('\n');
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
-
