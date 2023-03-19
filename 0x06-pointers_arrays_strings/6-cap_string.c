@@ -1,6 +1,7 @@
 #include <ctype.h>
 /**
  * cap_string - capitalizes letters in a string
+ * @str: string
  * Return: Capitalized string
  */
 char *cap_string(char *str)
