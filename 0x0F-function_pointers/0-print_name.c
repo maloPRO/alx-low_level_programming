@@ -1,3 +1,4 @@
+#include <stddef.h>
 /**
  * print_name - prints name
  * @name: name to be printed
@@ -6,8 +7,11 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	void (*ptr)(char *) = f;
-	char *nme = name;
+	if (f != NULL)
+	{
+		void (*ptr)(char *) = f;
+		char *nme = name;
 
-	(*ptr)(nme);
+		(*ptr)(nme);
+	}
 }
