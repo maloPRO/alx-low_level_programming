@@ -9,9 +9,6 @@ void print_name(char *name, void (*f)(char *))
 {
 	if (f != NULL)
 	{
-		void (*ptr)(char *) = f;
-		char *nme = name;
-
-		(*ptr)(nme);
+		f(name);
 	}
 }
