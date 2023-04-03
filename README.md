@@ -8,3 +8,14 @@
 - 0x05. C - Pointers, arrays and strings
 - 0x06. C - More pointers, arrays and strings 
 - 0x07. C - Even more pointers, arrays and strings
+- 0x08. C - Recursion
+- 0x09. C - Static libraries
+- 0x0A. C - Argc_Argv
+- 0x0B. C - Malloc_free
+- 0x0C. C - More malloc_free
+- 0x0D. C - Preprocessor
+- 0x0E. C - Structures, typedef
+- 0x0F. C - Fucntion pointers
+- 0x10. C - Variadic functions
+- 0x12. C - Singly linked lists
+- 0x13. C - More singly linked lists
