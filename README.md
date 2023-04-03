@@ -1,4 +1,4 @@
-## ALX LOW LEVEL PROGRAMMING AND ALGORITHM
+## LOW LEVEL PROGRAMMING AND ALGORITHM
 ### PROJECTS
 - 0X00. C - Hello world
 - 0x01. C - Variables, if, else, while
