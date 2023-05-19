@@ -5,6 +5,7 @@
 
 /**
  * get_dnodeint_at_index - gets node at index
+ * @head: head
  * @index: index of node
  * Return: nth node
  */
