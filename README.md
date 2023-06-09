@@ -14,7 +14,7 @@
   - What is the official C coding style and how to check your code with betty-style
   - How to find the right header to include in your source code when using a standard library function
   - How does the main function influence the return value of the program
-- #### 0x01. C - Variables, if, else, while
+- [x] 0x01. C - Variables, if, else, while
   - What are the arithmetic operators and how to use them
   - What are the logical operators (sometimes called boolean operators) and how to use them
   - What the the relational operators and how to use them
