@@ -1,6 +1,6 @@
 ## LOW LEVEL PROGRAMMING AND ALGORITHM
 ### PROJECTS
-0. # 0X00. C - Hello world
+0. #### 0X00. C - Hello world
   - Why C programming is awesome
   - Who invented C
   - Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
