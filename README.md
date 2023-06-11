@@ -2,25 +2,25 @@
 ### PROJECTS
 - [x] 0X00. C - Hello world
 - [x] 0x01. C - Variables, if, else, while
-- 0x02. C - Functions, nested loops
-- 0x03. C - Debugging 
-- 0x04. C - More functions, more nested loops
-- 0x05. C - Pointers, arrays and strings
-- 0x06. C - More pointers, arrays and strings 
-- 0x07. C - Even more pointers, arrays and strings
-- 0x08. C - Recursion
-- 0x09. C - Static libraries
-- 0x0A. C - Argc_Argv
-- 0x0B. C - Malloc_free
-- 0x0C. C - More malloc_free
-- 0x0D. C - Preprocessor
-- 0x0E. C - Structures, typedef
-- 0x0F. C - Fucntion pointers
-- 0x10. C - Variadic functions
-- 0x12. C - Singly linked lists
-- 0x13. C - More singly linked lists
-- 0x14-bit_manipulation
-- 0x15-file_io
-- 0x17-doubly_linked_lists
-- 0x18-dynamic_libraries
-- 0x1A-hash_tables
+- [x] 0x02. C - Functions, nested loops
+- [x] 0x03. C - Debugging 
+- [x] 0x04. C - More functions, more nested loops
+- [x] 0x05. C - Pointers, arrays and strings
+- [x] 0x06. C - More pointers, arrays and strings 
+- [x] 0x07. C - Even more pointers, arrays and strings
+- [x] 0x08. C - Recursion
+- [x] 0x09. C - Static libraries
+- [x] 0x0A. C - Argc_Argv
+- [x] 0x0B. C - Malloc_free
+- [x] 0x0C. C - More malloc_free
+- [x] 0x0D. C - Preprocessor
+- [x] 0x0E. C - Structures, typedef
+- [x] 0x0F. C - Fucntion pointers
+- [x] 0x10. C - Variadic functions
+- [x] 0x12. C - Singly linked lists
+- [x] 0x13. C - More singly linked lists
+- [x] 0x14-bit_manipulation
+- [x] 0x15-file_io
+- [x] 0x17-doubly_linked_lists
+- [x] 0x18-dynamic_libraries
+- [x] 0x1A-hash_tables
